@@ -1,10 +1,36 @@
+.white-space{
+  color: white;
+  justify-self: center;
+  margin-top: 4px;
+}
+.spaced{
+text-align: center;
+}
+
+
+.position-1{
+  position: absolute;
+  left: 1030px;
+  top: 450px;
+}
+
+.position-2{
+  position: absolute;
+  left: 1030px;
+  top: 340px;
+}
+
+.material-icons-outlined-red{
+  color: rgb(255, 98, 98);
+}
+
 .e0lpqv92 {
   background-image: linear-gradient(var(--color-f7f7f7ff) 0%, var(--color-f7f7f7ff) 100%);
   font-family: Raleway;
   grid-auto-flow: column;
   height: 911px;
   justify-content: center;
-  width: 1921px;
+  width: 1905px;
 }
 
 .e0eaq4pm {
@@ -141,11 +167,11 @@
 .e0ic3x5s {
   align-content: start;
   background-image: linear-gradient(rgb(255, 63, 44) 0%, rgb(255, 63, 44) 100%);
-  height: 33px;
+  height: 32px;
   margin-left: 25px;
   margin-top: 40px;
-  width: 33px;
-  border-radius: 5px;
+  width: 32px;
+  border-radius: 6px;
 }
 
 .e0xdnsec {
@@ -296,7 +322,7 @@
 }
 
 .e0m5b9e8 {
-  background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+  background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);  
   grid-auto-flow: column;
   height: 80px;
   justify-content: start;
@@ -308,7 +334,7 @@
 }
 
 .e04288ic {
-  background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+  background-color: rgb(255, 255, 255);
   grid-auto-flow: column;
   height: 80px;
   justify-content: start;
@@ -335,7 +361,7 @@
 
 .e047m7t4 {
   height: 775px;
-  width: 965px;
+  width: 850px;
 }
 
 .e0rkucvc {
