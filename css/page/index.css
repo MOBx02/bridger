@@ -7,7 +7,7 @@
 .spaced{
 text-align: center;
 }
-.spaced.spaced:focus{
+.spaced:focus{
   border-color: #db0000;  
   box-shadow: 0 0 3px #ff7a7a;
   outline:none;
@@ -262,8 +262,8 @@ text-align: center;
   font-size: 25px;
   height: 47px;
   line-height: 48px;
-  margin-left: 280px;
-  margin-top: 31px;
+  margin-left: 293px;
+  margin-top: 20px;
   width: 273px;
 }
 
