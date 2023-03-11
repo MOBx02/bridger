@@ -1,12 +1,17 @@
 .white-space{
   color: white;
   position: absolute;
-  top: 59.4vh;
+  top: 58.9vh;
   left: 51.75vw;
 }
 .spaced{
 text-align: center;
 }
+.spaced.spaced:focus{
+  border-color: #db0000;  
+  box-shadow: 0 0 3px #ff7a7a;
+  outline:none;
+  }
 
 .position-1{
   position: absolute;
@@ -26,7 +31,6 @@ text-align: center;
 
 
 .myButton {
-	/* box-shadow: 0px 0px 7px -1px #e02841; */
 	background-color:#FF3F2C;
 	border-radius:15px;
 	cursor:pointer;
@@ -36,6 +40,9 @@ text-align: center;
   justify-self: center;
   text-align: center;
 }
+.myButton:focus{
+  box-shadow: 0px 0px 4px #cc001f;
+}
 .signin-btn{
   font-size: 25px;
   height: 94px;
@@ -44,7 +51,7 @@ text-align: center;
 	padding: 30px;
 }
 .check-btn{
-  top: 500px;
+  margin-bottom: 25px;
 	padding: 15px;
 
 }
