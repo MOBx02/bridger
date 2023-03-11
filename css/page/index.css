@@ -1,12 +1,12 @@
 .white-space{
   color: white;
-  justify-self: center;
-  margin-top: 4px;
+  position: absolute;
+  top: 59.4vh;
+  left: 51.75vw;
 }
 .spaced{
 text-align: center;
 }
-
 
 .position-1{
   position: absolute;
@@ -24,11 +24,46 @@ text-align: center;
   color: rgb(255, 98, 98);
 }
 
+
+.myButton {
+	/* box-shadow: 0px 0px 7px -1px #e02841; */
+	background-color:#FF3F2C;
+	border-radius:15px;
+	cursor:pointer;
+	color:#ffffff;
+	text-decoration:none;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+.signin-btn{
+  font-size: 25px;
+  height: 94px;
+  width: 250px;
+  font-size:25px;
+	padding: 30px;
+}
+.check-btn{
+  top: 500px;
+	padding: 15px;
+
+}
+
+.myButton:hover {
+	background-color:#eb3a2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
 .e0lpqv92 {
   background-image: linear-gradient(var(--color-f7f7f7ff) 0%, var(--color-f7f7f7ff) 100%);
   font-family: Raleway;
   grid-auto-flow: column;
-  height: 911px;
+  height: 900px;
   justify-content: center;
   width: 1905px;
 }
@@ -166,11 +201,10 @@ text-align: center;
 
 .e0ic3x5s {
   align-content: start;
-  background-image: linear-gradient(rgb(255, 63, 44) 0%, rgb(255, 63, 44) 100%);
-  height: 32px;
   margin-left: 25px;
   margin-top: 40px;
-  width: 32px;
+  width: 20px;
+  height: 20px;
   border-radius: 6px;
 }
 
@@ -204,15 +238,7 @@ text-align: center;
   width: 187px;
 }
 
-.e0lriy95 {
-  align-content: center;
-  align-self: center;
-  background-image: linear-gradient(rgb(255, 63, 44) 0%, rgb(255, 63, 44) 100%);
-  height: 94px;
-  justify-self: center;
-  width: 249px;
-  border-radius: 15px;
-}
+
 
 .e0vhmtrk {
   align-content: start;
@@ -284,6 +310,7 @@ text-align: center;
   margin-left: 21px;
   text-align: center;
   width: 145px;
+
 }
 
 .e0m43qz1 {
