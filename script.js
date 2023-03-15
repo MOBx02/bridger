@@ -3,9 +3,7 @@ const content = document.getElementById('myContent');
 window.addEventListener('load', () => {
   content.style.opacity = 1;
 });
-
-
-
+//-----------------------
 const signInBtn = document.querySelector('.signin-btn');
 // Add a click event listener to the button
 signInBtn.addEventListener('click', function(event) {
@@ -17,13 +15,13 @@ signInBtn.addEventListener('click', function(event) {
     errorMessageElement.classList.add('show');
     setTimeout(function() {
       errorMessageElement.classList.remove('show');
-    }, 3000); // hide the error message after 3 seconds (adjust as needed)
+    }, 2000); // hide the error message after 3 seconds 
     
   }
   animateError();
 });
 
-
+//-------------------------
 const button = document.getElementById('myButton');
 const icon = document.getElementById('myIcon');
 

@@ -18,12 +18,6 @@ text-align: center;
   outline:none;
   }
 
-/* .hide{
-  opacity: 0%;
-}
-.showen{
-  opacity: 100%;
-} */
 .hide {
   display: none;
 }
