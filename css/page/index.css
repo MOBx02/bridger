@@ -13,8 +13,31 @@ text-align: center;
   outline:none;
   }
 
+/* .hide{
+  opacity: 0%;
+}
+.showen{
+  opacity: 100%;
+} */
+.hide {
+  display: none;
+}
+
+.shown {
+  display: inline;
+}
+
+.hidden{
+  opacity: 0%;
+  border-radius: 7px;
+  margin-top: 10px;
+  width: 210px;
+  padding: 3px;
+  font-size: 15px;
+}
 .show{
   color: red;
+  opacity: 100%;
   border-radius: 7px;
   margin-top: 10px;
   width: 210px;
@@ -271,17 +294,17 @@ text-align: center;
   align-content: start;
   color: rgb(21, 24, 101);
   font-size: 25px;
-  height: 47px;
+  height: 40px;
   line-height: 50px;
-  margin-left: 295px;
-  margin-top: 15px;
+  margin-left: 297px;
+  margin-top: 5px;
   width: 273px;
 }
 
 .e0hs1gta {
   align-content: center;
   grid-auto-flow: column;
-  height: 84px;
+  height: 65px;
   justify-content: center;
   margin-top: 69px;
   width: 828px;
