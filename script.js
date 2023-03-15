@@ -1,3 +1,11 @@
+const content = document.getElementById('myContent');
+
+window.addEventListener('load', () => {
+  content.style.opacity = 1;
+});
+
+
+
 const signInBtn = document.querySelector('.signin-btn');
 // Add a click event listener to the button
 signInBtn.addEventListener('click', function(event) {
