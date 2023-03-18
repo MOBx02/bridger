@@ -6,8 +6,8 @@
 .white-space{
   color: white;
   position: absolute;
-  top: 58.9vh;
-  left: 51.75vw;
+  top: 558px;
+  left: 993px;
 }
 .spaced{
 text-align: center;
@@ -28,11 +28,7 @@ text-align: center;
 
 .hidden{
   opacity: 0%;
-  border-radius: 7px;
-  margin-top: 10px;
-  width: 210px;
-  padding: 3px;
-  font-size: 15px;
+
 }
 .show{
   color: red;
@@ -42,21 +38,20 @@ text-align: center;
   width: 210px;
   padding: 3px;
   font-size: 15px;
-  align-self: center;
-  justify-self: center;
+  margin-left: 200PX;
   text-align: center;
 }
 
 .position-1{
   position: absolute;
   left: 1030px;
-  top: 450px;
+  top: 468px;
 }
 
 .position-2{
   position: absolute;
   left: 1030px;
-  top: 340px;
+  top: 368px;
 }
 
 .material-icons-outlined-red{
@@ -70,23 +65,8 @@ text-align: center;
 	cursor:pointer;
 	color:#ffffff;
 	text-decoration:none;
-  align-self: center;
-  justify-self: center;
   text-align: center;
-}
-.myButton:focus{
-  box-shadow: 0px 0px 4px #cc001f;
-}
-.signin-btn{
-  font-size: 25px;
-  height: 94px;
-  width: 250px;
-  font-size:25px;
-	padding: 30px;
-}
-.check-btn{
-  margin-bottom: 25px;
-	padding: 15px;
+  margin-left: 230px;
 }
 
 .myButton:hover {
@@ -95,6 +75,23 @@ text-align: center;
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.myButton:focus{
+  box-shadow: 0px 0px 4px #cc001f;
+}
+
+/*----------*/
+
+.signin-btn{
+  height: 70px;
+  width: 150px;
+  font-size: 20px;
+	padding: 22px;
+}
+.check-btn{
+  margin-bottom: 25px;
+	padding: 15px;
 }
 
 
@@ -111,8 +108,8 @@ text-align: center;
 .e0eaq4pm {
   align-content: start;
   height: 105px;
-  margin-left: 44px;
-  margin-top: 7px;
+  margin-left: 100px;
+  margin-top: 10px;
   width: 169px;
 }
 
@@ -155,7 +152,7 @@ text-align: center;
   height: 77px;
   line-height: 70px;
   margin-left: 27px;
-  margin-top: 148px;
+  margin-top: 180px;
   width: 397px;
 }
 
@@ -259,7 +256,7 @@ text-align: center;
 .e0jk3ek4 {
   align-content: start;
   color: rgb(21, 24, 101);
-  font-size: 20px;
+  font-size: 15px;
   line-height: 50px;
   margin-left: 15px;
   margin-top: 30px;
@@ -270,10 +267,10 @@ text-align: center;
   align-content: end;
   align-items: end;
   color: rgb(21, 24, 101);
-  font-size: 20px;
+  font-size: 15px;
   height: 49px;
   line-height: 50px;
-  margin-left: 340px;
+  margin-left: 175px;
   margin-top: 30px;
   width: 187px;
 }
@@ -292,22 +289,19 @@ text-align: center;
 .e0n1jaj5 {
   align-content: start;
   color: rgb(21, 24, 101);
-  font-size: 25px;
+  font-size: 18px;
   height: 40px;
-  line-height: 50px;
-  margin-left: 297px;
-  margin-top: 5px;
+  margin-left: 223px;
   width: 273px;
 }
 
 .e0hs1gta {
   align-content: center;
   grid-auto-flow: column;
-  height: 65px;
+  height: 60px;
   justify-content: center;
-  margin-top: 69px;
-  width: 828px;
-  padding: 0px;
+  margin-top: 90px;
+  width: 620px;
 }
 
 .e0wnc6vo {
@@ -319,7 +313,7 @@ text-align: center;
 .e0eg8yji {
   align-content: start;
   color: rgb(21, 24, 101);
-  font-size: 20px;
+  font-size: 15px;
   height: 98px;
   line-height: 122px;
   text-align: center;
@@ -344,10 +338,10 @@ text-align: center;
 .e00gdto9 {
   align-content: start;
   color: rgb(21, 24, 101);
-  font-size: 20px;
+  font-size: 15px;
   height: 94px;
   line-height: 122px;
-  margin-left: 21px;
+  margin-left: 60px;
   text-align: center;
   width: 145px;
 
@@ -391,11 +385,11 @@ text-align: center;
 .e0m5b9e8 {
   background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);  
   grid-auto-flow: column;
-  height: 80px;
   justify-content: start;
   margin-left: 25px;
   margin-top: 28px;
-  width: 760px;
+  height: 70px;
+  width: 550px;
   border-radius: 5px;
   border: 2px solid rgb(255, 80, 62);
 }
@@ -403,11 +397,11 @@ text-align: center;
 .e04288ic {
   background-color: rgb(255, 255, 255);
   grid-auto-flow: column;
-  height: 80px;
+  height: 70px;
   justify-content: start;
   margin-left: 25px;
   margin-top: 28px;
-  width: 760px;
+  width: 550px;
   border-radius: 5px;
   border: 2px solid rgb(255, 80, 62);
 }
@@ -734,11 +728,9 @@ text-align: center;
 }
 
 .e0cukewc {
-  align-self: start;
-  height: 600px;
+  height: 550px;
   justify-self: center;
-  width: 600px;
-  margin: 0px;
+  width: 550px;
 }
 
 .e0wttg98 {
@@ -765,13 +757,13 @@ text-align: center;
   align-content: start;
   align-items: end;
   color: rgb(21, 24, 101);
-  font-size: 20px;
+  font-size: 15px;
   height: 92px;
   justify-content: start;
   justify-items: center;
   justify-self: start;
   line-height: 122px;
-  margin-left: 22px;
+  margin-left: 10px;
   text-align: center;
   width: 253px;
 }
