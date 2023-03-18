@@ -29,3 +29,23 @@ button.addEventListener('click', () => {
   icon.classList.toggle('hide');
   icon.classList.toggle('shown');
 });
+
+const input1 = document.getElementById('myInput1');
+
+input1.addEventListener('focus', () => {
+  input1.placeholder = '';
+});
+
+input1.addEventListener('blur', () => {
+  input1.placeholder = 'Enter your email here';
+});
+
+const input2 = document.getElementById('myInput2');
+
+input2.addEventListener('focus', () => {
+  input2.placeholder = '';
+});
+
+input2.addEventListener('blur', () => {
+  input2.placeholder = 'Enter your password here';
+});
